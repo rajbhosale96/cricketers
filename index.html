@@ -1,0 +1,150 @@
+<html>
+  <head>
+    <style>
+      a {
+        text-decoration: none;
+      }
+      body {
+        text-align: center;
+        background-color: lightgray;
+      }
+      .squad {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      section {
+        background-color: rgba(255, 255, 255, 0.6);
+        margin-top: 20px;
+      }
+      header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: rgba(00, 35, 66, 0.9);
+        padding: 20px;
+        position: relative;
+      }
+      h1 {
+        background: linear-gradient(
+          to bottom,
+          #ff9933 20%,
+          #ffcc99 30%,
+          white 50%,
+          #66cc66 80%,
+          #138808 100%
+        );
+        color: darkblue;
+        display: inline;
+        padding: 13px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+      .logo {
+        height: 100px;
+        background-color: #003566;
+      }
+      .frame {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 250px;
+        height: 350px;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+        text-align: center;
+        padding: 20px;
+        margin: 10px;
+      }
+
+      .name {
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 15px;
+      }
+
+      .photo {
+        width: 100%;
+        height: auto;
+        max-height: 300px;
+        object-fit: cover;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="./assets/images/logo.png" class="logo" />
+      <h1>Indian Cricket Squad 2024</h1>
+    </header>
+
+    <section>
+      <ul class="squad">
+        <a href="./pages/rohitSharma.html"
+          ><li class="frame">
+            <span class="name">Rohit Sharma (c)</span>
+            <img src="assets/images/rohit.png" class="photo" /></li
+        ></a>
+
+        <a href="./pages/viratKohli.html"
+          ><li class="frame">
+            <span class="name">Virat Kohli</span>
+            <img src="assets/images/virat.png" class="photo" /></li
+        ></a>
+        <li class="frame">
+          <span class="name">Hardik Pandya (vc)</span>
+          <img src="assets/images/hardik.png" class="photo" />
+        </li>
+
+        <li class="frame">
+          <span class="name">Suryakumar Yadav</span>
+          <img src="assets/images/surya.png" class="photo" />
+        </li>
+
+        <li class="frame">
+          <span class="name">Yashasvi Jaiswal</span>
+          <img src="assets/images/yashasvi.png" class="photo" />
+        </li>
+        <li class="frame">
+          <span class="name">Rishabh Pant (wk)</span>
+          <img src="assets/images/rishabh.png" class="photo" />
+        </li>
+        <li class="frame">
+          <span class="name">Sanju Samson (wk)</span>
+          <img src="assets/images/sanju.png" class="photo" />
+        </li>
+        <li class="frame">
+          <span class="name">Shivam Dube</span>
+          <img src="assets/images/shivam.png" class="photo" />
+        </li>
+        <li class="frame">
+          <span class="name">Axar Patel</span>
+          <img src="assets/images/axar.png" class="photo" />
+        </li>
+        <li class="frame">
+          <span class="name">Kuldeep Yadav</span>
+          <img src="assets/images/kuldeep.png" class="photo" />
+        </li>
+        <li class="frame">
+          <span class="name">Yuzvendra Chahal</span>
+          <img src="assets/images/chahal.png" class="photo" />
+        </li>
+        <li class="frame">
+          <span class="name">Arshdeep Singh</span>
+          <img src="assets/images/arshdeep.png" class="photo" />
+        </li>
+        <li class="frame">
+          <span class="name">Mohammed Siraj</span>
+          <img src="assets/images/siraj.png" class="photo" />
+        </li>
+        <li class="frame">
+          <span class="name">Jasprit Bumrah</span>
+          <img src="assets/images/jasprit.png" class="photo" />
+        </li>
+      </ul>
+    </section>
+  </body>
+</html>
